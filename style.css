@@ -1,0 +1,83 @@
+h1 {
+    font-size: 40;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    gap: 850px;
+}
+
+.logo {
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: red;
+    transition-duration: 0.5s;
+}
+
+a {
+    color: white;
+}
+
+.video {
+    text-align: center;
+}
+
+
+
+.form-class {
+    max-width: 550px;
+    padding: 20px 500px;
+    border: 3px solid #8585858c;
+}
+
+.form-class label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-class textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-class button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.form-class button:hover {
+    background-color: #ff0000;
+    transition-duration: 0.5s;
+}
